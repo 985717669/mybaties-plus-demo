@@ -1,0 +1,11 @@
+server:
+  port: 8899
+
+# ˝æ›‘¥≈‰÷√
+spring:
+  datasource:
+    url: jdbc:mysql://rm-wz9xqe04o3v4y20sj1o.mysql.rds.aliyuncs.com/yaobili-business-company?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+    driver-class-name: com.mysql.jdbc.Driver
+    username: ybl2018
+    password: ybl2018@
+
