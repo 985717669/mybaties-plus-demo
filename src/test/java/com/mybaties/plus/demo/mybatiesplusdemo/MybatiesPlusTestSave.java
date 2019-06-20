@@ -26,7 +26,7 @@ public class MybatiesPlusTestSave {
     public void insert() {
         User user = new User();
         user.setAge(20);
-        user.setName("李四");
+        user.setName("王武");
         user.setEmail("ls@153.com");
         int rows = myUserMapper.insert(user);
         System.out.println("受影响的行数:  " + rows);
