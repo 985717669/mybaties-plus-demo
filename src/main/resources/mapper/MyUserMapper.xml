@@ -10,5 +10,7 @@
     <sql id="Base_Column_List">
         id, name, age, email
     </sql>
-
+    <select id="selectByUserId" parameterType="java.lang.Long" resultMap="BaseResultMap">
+        SELECT  * FROM user WHERE id = #{id}
+    </select>
 </mapper>
